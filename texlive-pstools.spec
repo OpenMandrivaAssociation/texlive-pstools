@@ -74,6 +74,7 @@ rawppm or rawpbm format files.
 %doc %{_texmfdir}/doc/man/man1/ps2frag.man1.pdf
 %doc %{_mandir}/man1/pslatex.1*
 %doc %{_texmfdir}/doc/man/man1/pslatex.man1.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -92,3 +93,5 @@ mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf %{buildroot}%{_datadir}
 mkdir -p %{buildroot}%{_mandir}/man1
 mv %{buildroot}%{_texmfdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

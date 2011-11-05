@@ -16,7 +16,8 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pstools.doc.tar.x
 Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pstools.x86_64-linux.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
-Requires(post):	texlive-tlpkg
+Requires(pre):	texlive-tlpkg
+Requires(post):	texlive-kpathsea
 Requires:	texlive-pstools.bin
 Provides:	ps2eps = %{version}
 Obsoletes:	ps2eps <= 1.64

@@ -6,7 +6,7 @@
 # catalog-version 1.68
 Name:		texlive-pstools
 Version:	1.68
-Release:	1
+Release:	2
 Summary:	Produce Encapsulated PostScript from PostScript
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/ps2eps
@@ -19,9 +19,7 @@ BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 Requires:	texlive-pstools.bin
-Provides:	ps2eps = %{version}
-Obsoletes:	ps2eps <= 1.64
-Conflicts:	ps2eps <= 1.64
+%rename ps2eps
 Conflicts:	texlive-texmf <= 20110705-3
 Conflicts:	texlive-doc <= 20110705-3
 

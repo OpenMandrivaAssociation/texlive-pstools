@@ -1,4 +1,3 @@
 sources:
-  "pstools.doc.tar.xz": dc0f53752eb467d83dcaddf083c9f43c5abc793c
-  "pstools.tar.xz": 4b7e6e578fd3633b6f2ad71d5a1d6a5c6f3f923d
-  "pstools.x86_64-linux.tar.xz": c76420ea247489032015178001584a7a6ccec057
+  pstools.doc.tar.xz: 733dbb82237bd2d9aafd07b3339908d460665c38
+  pstools.tar.xz: 238d7a5ea4046af4054cb9c32a500e4eef46b4b7

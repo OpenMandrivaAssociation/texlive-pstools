@@ -6,7 +6,7 @@
 # catalog-version 1.68
 Name:		texlive-pstools
 Version:	1.68
-Release:	5
+Release:	6
 Summary:	Produce Encapsulated PostScript from PostScript
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/ps2eps
@@ -75,8 +75,8 @@ Bounding Box values for rawppm or rawpbm format files.
 mkdir -p %{buildroot}%{_bindir}
 pushd %{buildroot}%{_bindir}
     ln -sf %{_texmfdistdir}/scripts/ps2eps/ps2eps.pl ps2eps
-    ln -sf %{_texmfdistdir}/scripts/tetex/ps2frag.sh ps2frag
-    ln -sf %{_texmfdistdir}/scripts/tetex/pslatex.sh pslatex
+    ln -sf %{_texmfdistdir}/scripts/texlive/ps2frag.sh ps2frag
+    ln -sf %{_texmfdistdir}/scripts/texlive/pslatex.sh pslatex
 popd
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf-dist %{buildroot}%{_datadir}

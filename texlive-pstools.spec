@@ -6,7 +6,7 @@
 # catalog-version 1.68
 Name:		texlive-pstools
 Version:	1.68
-Release:	4
+Release:	5
 Summary:	Produce Encapsulated PostScript from PostScript
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/ps2eps

@@ -1,4 +1,4 @@
-# revision 29764
+# revision 33736
 # category TLCore
 # catalog-ctan /support/ps2eps
 # catalog-date 2012-07-20 20:39:39 +0200
@@ -6,7 +6,7 @@
 # catalog-version 1.68
 Name:		texlive-pstools
 Version:	1.68
-Release:	11
+Release:	12
 Summary:	Produce Encapsulated PostScript from PostScript
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/support/ps2eps

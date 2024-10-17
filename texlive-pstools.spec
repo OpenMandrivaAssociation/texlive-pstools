@@ -9,7 +9,7 @@ Version:	1.68
 Release:	18
 Summary:	Produce Encapsulated PostScript from PostScript
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/support/ps2eps
+URL:		https://www.ctan.org/tex-archive/support/ps2eps
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pstools.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pstools.doc.tar.xz
